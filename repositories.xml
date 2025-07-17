@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[asafg]]></name>
+    <description lang="en"><![CDATA[asafg]]></description>
+    <owner type="person">
+      <email>asaf.gery@gmail.com</email>
+      <name><![CDATA[Asaf Gery]]></name>
+    </owner>
+    <!--    <source type="git">git://github.com/lucascouts/gg.git</source>
+    <source type="git">https://github.com/lucascouts/gg.git</source>
+    <feed>https://github.com/lucascouts/gg/commits/master.atom</feed> -->
+  </repo>
+</repositories>
