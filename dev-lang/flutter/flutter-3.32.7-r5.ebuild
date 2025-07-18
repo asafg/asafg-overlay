@@ -50,7 +50,9 @@ src_install() {
 	mkdir "${D}/opt/" || die
 	mv "${S}" "${D}/opt/${PN}" || die
 
-	dosym "../${PN}/bin/${PN}" "/opt/bin/${PN}"
+	dosym -r "/opt/${PN}/bin/${PN}" "/opt/bin/${PN}"
+  # fowners -R flutter:flutter "${D}/opt/bin/${PN}"
+
 }
 
 pkg_postinst() {
